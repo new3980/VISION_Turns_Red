@@ -34,3 +34,6 @@ cv2.destroyAllWindows
 #create new image (result is written one by one)
 outputpath = "D:\\GIT\\VISION_Turns_Red-1\\Drawing function\\texting on fav pic.jpg"
 cv2.imwrite(outputpath,img)
+
+#Next is face detection
+#Nopparuj J.

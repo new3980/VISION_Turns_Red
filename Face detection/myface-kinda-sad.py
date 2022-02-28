@@ -21,7 +21,7 @@ def draw_box(img,classifier,scaleFactor,minNeighbors,color,text):
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     #detect face position
     features = classifier.detectMultiScale(gray,scaleFactor,minNeighbors)
-    coords = []
+
     for (x,y,w,h) in features:
         #Found face border at x ,then the end must be x+width of face detected in features
         cv2.rectangle(img,(x,y),(x+w,y+h),color,2)
