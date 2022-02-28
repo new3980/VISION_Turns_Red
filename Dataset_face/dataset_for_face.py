@@ -3,7 +3,7 @@
 #Still can't figure how to extract 2 faces or more
 import cv2
 
-path = "D:\\GIT\\VISION_Turns_Red-1\\REF_path\\YADA_1.mp4"
+path = "D:\\GIT\\VISION_Turns_Red-1\\REF_path\\YADA.mp4"
 
 faceCascade = cv2.CascadeClassifier("C:\\Users\\MBComputer\\anaconda3\\envs\\myenv\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
 anime = cv2.CascadeClassifier("C:\\Users\\MBComputer\\anaconda3\\envs\\myenv\\Lib\\site-packages\\cv2\\data\\lbpcascade_animeface.xml")
@@ -14,7 +14,7 @@ anime = cv2.CascadeClassifier("C:\\Users\\MBComputer\\anaconda3\\envs\\myenv\\Li
 def grouping(img,id,img_id):
     #str(id) = order that find face 
     #str(img_id) = order that seen this same face
-    cv2.imwrite("D:\\GIT\\VISION_Turns_Red-1\\Dataset_face\\faces\\pics_"+str(id)+"_"+str(img_id)+".jpg",img) 
+    cv2.imwrite("D:\\GIT\\VISION_Turns_Red-1\\Dataset_face\\data\\pics_"+str(id)+"_"+str(img_id)+".jpg",img) 
 
 def draw_box(img,classifier,scaleFactor,minNeighbors,color,text):
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
