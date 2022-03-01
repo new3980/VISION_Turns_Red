@@ -1,2 +1,8 @@
 # VISION_Turns_Red
-![aa12111e7a0d8f69886f6f3adfbf1f0a](https://user-images.githubusercontent.com/81348547/155930455-9f908087-1d7f-4aec-817e-a5b99ac2ef01.gif)
+<h1 align="center">Hi...It's me LemonRhumbus (Noppa J.) again</h1>
+<h3 align="center">It was 19 SEP 2020 that I created these, then I just put in some make up to make it easier to understand with my SIMPness</h3>
+
+
+![849790](https://user-images.githubusercontent.com/81348547/156134649-af37291b-f335-4854-be4d-29154e73d5fd.gif)
+
+Basicly these are just my training material when I learned 'opencv' last year and modify it so that it suits my style of works.
